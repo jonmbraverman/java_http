@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HttpPractice",
+            "request": "launch",
+            "mainClass": "HttpPractice",
+            "projectName": "java_http_535624ca"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "http",
+            "request": "launch",
+            "mainClass": "http",
+            "projectName": "java_http_535624ca"
+        }
+    ]
+}
