@@ -8,9 +8,9 @@ public class HttpPractice {
 
     public static void main(String[] args)
     {
-        //String http = "https://httpbin.org/headers";
-        String http = "http://www.google.com";
-        System.out.printf("Test: %s:\n", http);
+        String http = "https://httpbin.org/headers";
+        //String http = "https://www.google.com";
+        System.out.printf("Test url: %s\n\nresponse:\n", http);
         HttpClient client = HttpClient.newHttpClient();
         
         HttpRequest request = HttpRequest.newBuilder()
